@@ -4,7 +4,7 @@ from django.views.decorators.csrf import csrf_exempt
 
 import json
 
-from app.models import Car
+from myapp.models import Car
 
 def index(request):
     response = json.dumps([{}])
